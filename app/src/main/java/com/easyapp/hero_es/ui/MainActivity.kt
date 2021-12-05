@@ -1,4 +1,4 @@
-package com.easyapp.hero_es
+package com.easyapp.hero_es.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,7 +8,6 @@ import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.android.volley.Request
 import com.easyapp.hero_es.databinding.ActivityMainBinding
-import com.google.gson.Gson
 
 class MainActivity : AppCompatActivity() {
     private val TAG = "MainActivity"
