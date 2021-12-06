@@ -1,26 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".ui.MainActivity">
 
     <Button
         android:id="@+id/verificarConsumo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Verificar Consumo"
-        android:textAllCaps="false"
         android:layout_above="@+id/progressBar"
         android:layout_centerHorizontal="true"
-        />
+        android:text="Verificar Consumo"
+        android:textAllCaps="false" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/tvGetInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:gravity="center"
+        android:hint="sinDatos" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Enviar algo...">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar a firebase" />
+
+</LinearLayout>

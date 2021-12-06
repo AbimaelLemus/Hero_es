@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "799227253153",
+    "project_id": "hero-94623",
+    "storage_bucket": "hero-94623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799227253153:android:d837a86aa14b0c99393be0",
+        "android_client_info": {
+          "package_name": "com.easyapp.hero_es"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799227253153-sht422ennt7cgnceso4vsjcs4r9u7iqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFltTwBR-sXw_aoIO--PGC28BJSS8JMFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799227253153-sht422ennt7cgnceso4vsjcs4r9u7iqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
