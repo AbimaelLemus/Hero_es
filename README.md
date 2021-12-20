@@ -31,3 +31,6 @@ Home
     y supongo que un dialog podemos hacer el login y registro, o seria conveniente que al querer reaccionar registrar o loguear en su caso 
 >5 cargamos la informacion (imagen, nombre, reaccion por default )... seria bueno ofrecer una paginacion?
 >6 al hacer clic al item... mostrar descripcion...
+
++
+>versionamiento... no se en cual pantalla seria mejor, pero primero a la prioridad
